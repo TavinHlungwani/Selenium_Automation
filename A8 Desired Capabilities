@@ -1,0 +1,23 @@
+//Here are the Desired Capabilities for the A8, simply replace udid, platformVersion and deviceName values by yours, or the device you would like to automate
+//udid: use adb to find this
+//platformVersion: OS version
+//deviceName: Name of the device
+//These capabilities are to be pasted on Appium
+{
+  "udid": "5200a8415e92c457",
+  "platformName": "Android",
+  "platformVersion": "9",
+  "deviceName": "Samsung A8",
+  "appActivity": "com.mendix.nativetemplate.MainActivity",
+  "appPackage": "com.eliteseries.mobile"
+}
+
+//Opera Mini Browser
+{
+  "udid": "5200a8415e92c457",
+  "platformName": "Android",
+  "platformVersion": "9",
+  "deviceName": "Samsung A8",
+  "appActivity": "com.opera.mini.android.Browser",
+  "appPackage": "com.opera.mini.native"
+}

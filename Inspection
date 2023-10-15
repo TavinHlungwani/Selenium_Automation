@@ -1,0 +1,69 @@
+
+//Start My Order
+//android.view.View[@content-desc='START MY ORDER']
+
+/Accept Cookies
+//android.widget.Button[@text='Accept All Cookies']
+
+//Address InputBox
+//android.widget.EditText[@resource-id='RestaurantSearchKeyword']
+
+sendKeys(33Sloane)
+
+//Choose Address
+//android.widget.TextView[@text='33 Sloane StreetBryanston, Sandton, South Africa']
+
+Scroll by 100% or to Gaap: //android.widget.TextView[@text='KFC HQ GAAP TEST STORE1']
+
+//In Store
+//android.view.View[@text='IN-STORE']
+
+//DRIVE THRU
+//android.view.View[@text='DRIVE THRU']
+
+//CURBSIDE
+//android.view.View[@text='CURBSIDE']
+
+//Start My Order
+//android.widget.Button[@text='START MY ORDER']
+
+Click above
+
+Click Cookies
+
+Choose any item
+//Promos
+//android.widget.TextView[@text='Promotions']
+
+//Promos item add to cart
+//android.widget.Button[@text='ADD TO CART']
+
+//if item opens a description page, check if allegens button is there then add to cart
+//android.widget.TextView[@text='CHECK ALLERGENS']
+
+//android.widget.Button[@text='ADD TO CART']
+
+/Location popup validation
+//popup text, if text below appears, click allow
+//android.widget.TextView[@text='Allow KFC SA UAT to access this device's location?']
+
+//android.widget.Button[@text='Allow']
+//android.widget.Button[@text='Deny']
+
+//Cart Bottom Nav Option
+//android.widget.TextView[@text='CART']
+
+//Accept cookies
+
+//Timer
+
+
+
+
+//Scroll 100%
+
+//Proceed to Payment
+//android.view.View[@content-desc='PROCEED TO PAYMENT']
+
+
+//Checkout Page
