@@ -34,14 +34,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/T540p/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar" sourcepath="C:/Users/T540p/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.appium"/>
-			<attribute name="maven.artifactId" value="java-client"/>
-			<attribute name="maven.version" value="7.3.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
