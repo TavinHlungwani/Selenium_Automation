@@ -1,0 +1,61 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class LoginPageAutomation {
+    public static void main(String[] args) {
+        // Set the path to ChromeDriver (replace with the actual path)
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver.exe");
+
+        // Configure Chrome options (if needed)
+        ChromeOptions options = new ChromeOptions();
+        options.setHeadless(false); // Set to true for headless mode
+
+        // Initialize the Chrome WebDriver
+        WebDriver driver = new ChromeDriver(options);
+
+        // Read test data from properties file
+        Properties testData = new Properties();
+        try {
+            FileInputStream input = new FileInputStream("testdata.properties");
+            testData.load(input);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Navigate to the login page
+        driver.get("https://example.com/login"); // Replace with your login page URL
+
+        // Locate the username and password input fields and the login button
+        WebElement usernameInput = driver.findElement(By.id("username")); // Replace with the actual element ID
+        WebElement passwordInput = driver.findElement(By.id("password")); // Replace with the actual element ID
+        WebElement loginButton = driver.findElement(By.id("login-button")); // Replace with the actual element ID
+
+        // Get test data from properties file
+        String username = testData.getProperty("username");
+        String password = testData.getProperty("password");
+
+        // Enter the username and password
+        usernameInput.sendKeys(username);
+        passwordInput.sendKeys(password);
+
+        // Click the login button
+        loginButton.click();
+
+        // Add a delay for demonstration purposes (not recommended in production)
+        try {
+            Thread.sleep(5000); // 5 seconds
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // Close the WebDriver
+        driver.quit();
+    }
+}
