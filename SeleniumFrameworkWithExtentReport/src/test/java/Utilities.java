@@ -22,5 +22,9 @@ public class Utilities {
 			e.printStackTrace();
 		}
 	}
+	
+	public void readPropertiesFile() {
+		
+	}
 
 }

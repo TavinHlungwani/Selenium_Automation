@@ -8,8 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 /**
- * Login Automation with extent report
- * @author T540p
+ * Basic Selenium Login Automation with TestNG and ChromeDriver
+ * @author Tavin Hlungwani
  *
  */
 public class LoginChromeDriverScript {
@@ -18,7 +18,7 @@ public class LoginChromeDriverScript {
 	
 	public static void main(String[] args) {
 		// 1. Setup driver location
-		System.setProperty("webdriver.chrome.driver", "C:/automation/web_drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Webdriver/chromedriver.exe");
 
 		// 2. Declare webdriver/Chromedriver
 		WebDriver chromeDriver = new ChromeDriver();
@@ -27,10 +27,12 @@ public class LoginChromeDriverScript {
 		Properties testData = new Properties();
 		try {
 			FileInputStream inputStream = new FileInputStream("Data/login.properties");
-			testData.load(inputStream);
+			testData.load(inputStream);   // load the data into the properties var from the file
 		} catch (FileNotFoundException e) {
+			System.out.println("Ooops: " + e.getMessage().toString());
 			e.printStackTrace();
 		} catch (IOException e) {
+			System.out.println("Ooops: " + e.getMessage().toString());
 			e.printStackTrace();
 		}
 
@@ -38,12 +40,13 @@ public class LoginChromeDriverScript {
 		String url = testData.getProperty("test_url");
 		String username = testData.getProperty("test_username");
 		String password = testData.getProperty("test_password");
-		System.out.println("Url: " + url + "\nUsername: " + username + "\nPassword: " + password);
+		
+		System.out.println("Url: " + url + "\nUsername: " + username + "\nPassword: " + password);  //let's see the data from the file?
 
-		// 4. Instantiate the webdriver
+		// 4. Load the url
 		chromeDriver.get(url);
 		
-		// 5. Inspect the web page
+		// 5. Inspect the web page elements
 		WebElement usernameInputText = chromeDriver.findElement(By.id("username"));
 		WebElement passwordInputText = chromeDriver.findElement(By.id("password"));
 		WebElement loginButton = chromeDriver.findElement(By.id("login"));
@@ -52,13 +55,13 @@ public class LoginChromeDriverScript {
 		usernameInputText.sendKeys(username);
 		passwordInputText.sendKeys(password);
 		
-		utilities = new Utilities();
+		utilities = new Utilities();    //get some help from external class
 		utilities.waitSomeTime(5000);
 		
-		loginButton.click();
+		loginButton.click();   //anddddddd, action!
 		
 
-		// Clean up
+		// Clean up/closing browser
 		chromeDriver.quit();
 
 	}

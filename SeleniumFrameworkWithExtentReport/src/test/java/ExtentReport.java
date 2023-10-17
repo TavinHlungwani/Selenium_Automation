@@ -12,8 +12,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 /**
- * This class is for assisitng in creating and populating the extent report
- * @author T540p
+ * This class is for assisting in creating and populating the extent report
+ * @author Tavin Hlungwani
  *
  */
 public class ExtentReport {

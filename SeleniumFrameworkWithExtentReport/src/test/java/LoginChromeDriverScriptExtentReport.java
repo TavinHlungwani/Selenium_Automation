@@ -9,8 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
- * Login Automation with extent report
- * @author T540p
+ * Selenium Login Automation with extent report and ChromeDriver
+ * @author Tavin Hlungwani
  *
  */
 public class LoginChromeDriverScriptExtentReport {
@@ -18,9 +18,9 @@ public class LoginChromeDriverScriptExtentReport {
 	private static Utilities utilities;
 	private static ExtentReport extentReport;
     
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		//Setup driver location
-		System.setProperty("webdriver.chrome.driver", "C:/automation/web_drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Webdriver/chromedriver.exe");
 
 		//Instantiate Objects
 		extentReport = new ExtentReport();
@@ -29,7 +29,7 @@ public class LoginChromeDriverScriptExtentReport {
 		//Declare webdriver/Chromedriver
 		WebDriver chromeDriver = new ChromeDriver();
 
-		//Setup Test Data file
+		//Setup Test Data file and read from it
 		Properties testData = new Properties();
 		try {
 			FileInputStream inputStream = new FileInputStream("Data/login.properties");
