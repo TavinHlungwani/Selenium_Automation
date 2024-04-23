@@ -17,13 +17,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginChromeWebDriver {
 
 	public static void main(String[] args) {
-		//Set driver and specify location
+		//1. Set driver and specify location
 		System.setProperty("webdriver.chrome.driver", "webdrivers/chromedriver.exe");
 		
-		//Declare webdriver
+		//2. Declare webdriver
 		WebDriver chromeDriver = new ChromeDriver();
 		
-		//File management
+		//3. File management
 		Properties testData = new Properties();
 		try {
 			FileInputStream input = new FileInputStream("data/testdata.properties");
@@ -36,27 +36,27 @@ public class LoginChromeWebDriver {
 			e.printStackTrace();
 		}
 		
-		//Did we get the url from file.properties?
+		//4. Did we get the url from file.properties?
 		System.out.println("Taking you to: " + testData.getProperty("test_url"));
 		chromeDriver.get(testData.getProperty("test_url"));   //navigate to the url
 		
-		//Inspections
+		//5. Inspections
 		WebElement usernameInput = chromeDriver.findElement(By.id("username"));
 		WebElement passwordeInput = chromeDriver.findElement(By.id("password"));
 		WebElement loginButton = chromeDriver.findElement(By.id("login"));
 		
-		//Storing the file.properties data to local variables
+		//6. Storing the file.properties data to local variables
 		String username = testData.getProperty("test_username");
 		String password = testData.getProperty("test_password");
 		
 		//Did we really get the data from file.propeties?
 		System.out.println("Username: " + username + "\nPassword: " + password);
 		
-		//Send the data to the form
+		//7. Send the data to the form
 		usernameInput.sendKeys(username);
 		passwordeInput.sendKeys(password);
 		
-		//Hold it so we see what is happening
+		//Optional: Hold it so we see what is happening
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -64,12 +64,12 @@ public class LoginChromeWebDriver {
 			e.printStackTrace();
 		}
 		
-		//Action/execute....
+		//8. Action/execute....
 		loginButton.click();
 		
 		System.out.println("Did you see the magic('_')?");
 		
-		//Close browser and quit session
+		//9. Close browser and quit session
 		chromeDriver.quit();
 
 	}

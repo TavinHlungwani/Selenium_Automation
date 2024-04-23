@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Selenium Login Automation with extent report and ChromeDriver
  * @author Tavin Hlungwani
+ * Chrome Driver Link: https://googlechromelabs.github.io/chrome-for-testing/
  *
  */
 public class LoginChromeDriverScriptExtentReport {
