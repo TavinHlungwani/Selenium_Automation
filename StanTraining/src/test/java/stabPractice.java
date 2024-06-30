@@ -35,9 +35,10 @@ public class stabPractice {
 		chromeDriver.get(testData.getProperty("test_url"));
 		
 		//5. Inspections
-		WebElement loginInputUsername = chromeDriver.findElement(By.id("username"));
-		WebElement loginInputPassword = chromeDriver.findElement(By.cssSelector("#password"));
-		WebElement loginButttonElement = chromeDriver.findElement(By.xpath("//input[@id='password']"));
+		WebElement loginInputUsername = chromeDriver.findElement(By.id("login-username"));
+		WebElement loginInputPassword = chromeDriver.findElement(By.cssSelector("#login-password"));
+		WebElement loginPasswordVisibilityIconElement = chromeDriver.findElement(By.id("hide-show-password"));
+		WebElement loginButttonElement = chromeDriver.findElement(By.xpath("//button[@id='login-submit']"));
 		
 		//6. Store properties into vars?
 		String strUsernameString = testData.getProperty("test_username");
@@ -46,6 +47,7 @@ public class stabPractice {
 		//7. Send to form
 		loginInputUsername.sendKeys(strUsernameString);
 		loginInputPassword.sendKeys(strPasswordString);
+		loginPasswordVisibilityIconElement.click();
 		
 		//8. Hold on a second to see what is happening
 		try {
