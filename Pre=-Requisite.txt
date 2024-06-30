@@ -1,0 +1,5 @@
+Maven Repository: https://mvnrepository.com/search?q=selenium
+
+Chrome Driver: https://chromedriver.chromium.org/downloads
+
+URL Automated: http://tutorials.gamechangersites.co.za/
