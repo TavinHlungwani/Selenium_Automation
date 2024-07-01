@@ -47,7 +47,7 @@ public class stabPractice {
 		//7. Send to form
 		loginInputUsername.sendKeys(strUsernameString);
 		loginInputPassword.sendKeys(strPasswordString);
-		loginPasswordVisibilityIconElement.click();
+		loginPasswordVisibilityIconElement.click();	
 		
 		//8. Hold on a second to see what is happening
 		try {
