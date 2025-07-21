@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d3cce32-97e2-4aa3-8f24-a81e07800e0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../FridayAutomation/androidApp/build.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayAutomation/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayAutomation/iosApp/build.ipa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayAutomation/src/test/java/AppiumTestAndroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayAutomation/src/test/java/LoginAutomationWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FridayAutomation/src/test/java/LoginAutomationmac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlaywrightFrameworkMac/node_modules/cucumber-html-reporter/cucumber-html-reporter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalTonight/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalTonight/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalTonight/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalTonight/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalTonight/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalTonight/target/classes/META-INF/maven/FinalTonight/FinalTonight/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalTonight/target/classes/META-INF/maven/FinalTonight/FinalTonight/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalTonight/target/test-classes/finalTonightAutomation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/data/testdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../FridayAutomation/data/testdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FridayAutomation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/src/test/java/LoginAutomation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/target/classes/META-INF/maven/com.FridayAutomation/FridayAutomation/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/target/classes/META-INF/maven/com.FridayAutomation/FridayAutomation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FridayAutomation/target/test-classes/LoginAutomation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFrameworkWithExtentReport/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFrameworkWithExtentReport/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumFrameworkWithExtentReport/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumFrameworkWithExtentReport/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2n9HEvD0z6MfMrjmXNcKqrtv2OG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.Demoblaze.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/tavin.hlungwani/eclipse-workspace/selenium/Selenium_Automation/Demoblaze/webdriver",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webdriver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Demoblaze">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Demoblaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demoblaze" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Demoblaze" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Demoblaze" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Demoblaze" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d3cce32-97e2-4aa3-8f24-a81e07800e0e" name="Changes" comment="" />
+      <created>1728378265065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728378265065</updated>
+    </task>
+    <servers />
+  </component>
+</project>
