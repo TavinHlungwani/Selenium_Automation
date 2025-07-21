@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/T540p/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar" sourcepath="C:/Users/T540p/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+			<attribute name="maven.artifactId" value="commons-math3"/>
+			<attribute name="maven.version" value="3.6.1"/>
+			<attribute name="maven.scope" value="compile"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/revise"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
